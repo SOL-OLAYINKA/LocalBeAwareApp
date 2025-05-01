@@ -1,0 +1,29 @@
+{
+  "name": "beaware-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo-router/entry",
+  "scripts": {
+    "dev": "expo start --dev-client",
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~49.0.13",
+    "expo-router": "3.4.2",
+    "react": "18.2.0",
+    "react-native": "0.72.4",
+    "expo-notifications": "~0.20.1",
+    "lucide-react-native": "^0.262.0",
+    "react-native-calendars": "^1.1293.0",
+    "date-fns": "^2.30.0",
+    "@supabase/supabase-js": "^2.39.4",
+    "react-native-reanimated": "~3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "typescript": "^5.1.6"
+  },
+  "private": true
+}
